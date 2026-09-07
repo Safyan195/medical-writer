@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safyan Javed — Medical & Scientific Writer</title>
+<meta name="description" content="Safyan Javed, Final Year Pharm-D student and aspiring medical & scientific writer, turning complex science into clear, understandable stories.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Ambient background -->
+<div class="ambient" aria-hidden="true">
+  <div class="ambient__glow ambient__glow--orange"></div>
+  <div class="ambient__glow ambient__glow--blue"></div>
+  <div class="ambient__grain"></div>
+</div>
+
+<!-- Navigation -->
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__brand">Safyan Javed</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="index.html" class="is-active">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="nav__cta">Get in Touch</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="homePage">
+
+  <!-- 1. Hero -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+      <div class="hero__text reveal">
+        <p class="hero__kicker" id="bindHeroKicker">Final Year Pharm-D Student &amp; Medical Writer</p>
+        <h1 class="hero__name" id="bindHeroName">Safyan Javed</h1>
+        <p class="hero__tagline" id="bindHeroTagline">Turning complex science into clear, understandable stories.</p>
+        <p class="hero__intro" id="bindHeroIntro">
+          I translate dense scientific, medical, and healthcare information into content that
+          reads clearly and holds up to scrutiny &mdash; built on a pharmacy education and a habit
+          of writing for the reader first.
+        </p>
+        <div class="hero__actions">
+          <a href="portfolio.html" class="btn btn--primary">View My Work</a>
+          <a href="about.html" class="btn btn--ghost">About Me</a>
+        </div>
+      </div>
+
+      <div class="hero__portrait reveal reveal--delay-1">
+        <div class="portrait-frame">
+          <div class="portrait-frame__ring"></div>
+          <div class="portrait-frame__photo" id="portraitWipe">
+            <img src="assets/images/safyan-headshot.jpg" alt="Safyan Javed" class="portrait-frame__img" id="portraitImg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-cue" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- 2. Professional Highlights -->
+  <section class="highlights" id="highlights">
+    <div class="section-inner">
+      <div class="highlights__grid" id="highlightsGrid"></div>
+    </div>
+  </section>
+
+  <!-- 3. Services Teaser -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>How I can help</h2>
+        <p>Four ways to turn complicated science into content people actually understand.</p>
+      </div>
+
+      <div class="services__list" id="servicesTeaserList"></div>
+    </div>
+  </section>
+
+  <!-- 4. Featured Work -->
+  <section class="work" id="work">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Featured work</h2>
+        <p>A sample of the content formats I write across &mdash; portfolio examples, ready to be replaced with published work.</p>
+      </div>
+
+      <div class="work__grid" id="workGrid"></div>
+
+      <div class="work__cta reveal">
+        <a href="portfolio.html" class="btn btn--ghost">View Full Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>What collaborators say</h2>
+        <p>Placeholders for now &mdash; genuine testimonials will replace these as projects are completed.</p>
+      </div>
+
+      <div class="testimonial-slider reveal" id="testimonialSlider">
+        <div class="testimonial-slider__track" id="testimonialTrack">
+
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__sample">Sample testimonial placeholder</p>
+            <p class="testimonial-card__quote">"Safyan has a rare ability to make dense clinical material feel readable without losing any of its precision."</p>
+            <footer class="testimonial-card__meta">To be replaced with a verified testimonial</footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__sample">Sample testimonial placeholder</p>
+            <p class="testimonial-card__quote">"Working with him felt like handing off a research problem and getting back something a patient could actually understand."</p>
+            <footer class="testimonial-card__meta">To be replaced with a verified testimonial</footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__sample">Sample testimonial placeholder</p>
+            <p class="testimonial-card__quote">"Thorough, accurate, and easy to brief. Exactly what you want from someone writing about medicine."</p>
+            <footer class="testimonial-card__meta">To be replaced with a verified testimonial</footer>
+          </blockquote>
+
+        </div>
+
+        <div class="testimonial-slider__controls">
+          <button class="testimonial-slider__btn" id="testimonialPrev" aria-label="Previous testimonial">&#8592;</button>
+          <div class="testimonial-slider__dots" id="testimonialDots"></div>
+          <button class="testimonial-slider__btn" id="testimonialNext" aria-label="Next testimonial">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Areas of Focus Marquee -->
+  <section class="focus" id="focus">
+    <div class="section-inner section-inner--full">
+      <p class="focus__label reveal">Areas of focus</p>
+    </div>
+    <div class="marquee">
+      <div class="marquee__track">
+        <span>Pharmacy</span>
+        <span>Healthcare</span>
+        <span>Clinical Research</span>
+        <span>Medical Education</span>
+        <span>Scientific Communication</span>
+        <span>Evidence-Based Medicine</span>
+        <span>Public Health</span>
+        <span>Pharmaceutical Sciences</span>
+        <span>Pharmacy</span>
+        <span>Healthcare</span>
+        <span>Clinical Research</span>
+        <span>Medical Education</span>
+        <span>Scientific Communication</span>
+        <span>Evidence-Based Medicine</span>
+        <span>Public Health</span>
+        <span>Pharmaceutical Sciences</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Closing CTA -->
+  <section class="closing" id="contact-cta">
+    <div class="section-inner">
+      <div class="closing__box reveal">
+        <h2>Have complex science that needs a clear voice?</h2>
+        <p>I take dense scientific and healthcare material and turn it into content that is accurate, readable, and built for the audience it's written for.</p>
+        <a href="contact.html" class="btn btn--primary">Let's Work Together</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="section-inner footer__inner">
+    <div class="footer__brand">
+      <p class="footer__name">Safyan Javed</p>
+      <p class="footer__title">Medical &amp; Scientific Writer</p>
+    </div>
+
+    <nav class="footer__nav">
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="footer__social">
+      <a href="#" aria-label="LinkedIn" class="footer__icon" data-bind="social-linkedin">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M8 10.5v6M8 7.8v.01M12 16.5v-3.7c0-1.5 1-2.3 2.2-2.3 1.2 0 1.8.9 1.8 2.3v3.7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </a>
+      <a href="#" aria-label="ResearchGate" class="footer__icon" data-bind="social-researchgate">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M9 15v-5l3 3 3-3v5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="mailto:safyanjaved195@gmail.com" aria-label="Email" class="footer__icon" data-bind="footer-email">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+  <p class="footer__legal">&copy; <span id="year"></span> Safyan Javed. Portfolio content shown for demonstration purposes. &middot; <a href="admin.html" class="footer__admin-link">Admin</a></p>
+</footer>
+
+<script src="js/content-store.js"></script>
+<script src="js/site-render.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
